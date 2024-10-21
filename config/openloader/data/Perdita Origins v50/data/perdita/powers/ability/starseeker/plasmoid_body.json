@@ -1,0 +1,15 @@
+{
+    "name": "Slimy Stature",
+    "description": "Your slimy stature, while great for absorbing water, is a bit too good at it. Being submerged is quite deadly.",
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+        "type": "origins:damage",
+        "amount": 2,
+        "damage_type": "minecraft:drown"
+    }
+}

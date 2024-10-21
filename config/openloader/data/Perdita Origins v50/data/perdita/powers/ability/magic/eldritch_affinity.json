@@ -1,0 +1,20 @@
+{
+    "name": "Eldritch Affinity",
+    "description": "+30% Eldritch Spell Power\n+30% Eldritch Magic Resistance",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "irons_spellbooks:eldritch_spell_power",
+            "operation": "addition",
+            "value": 0.3,
+            "name": "perdita_eldritch_affinity"
+        },
+        {
+            "attribute": "irons_spellbooks:eldritch_magic_resist",
+            "operation": "addition",
+            "value": 0.3,
+            "name": "perdita_eldritch_affinity"
+        }
+    ],
+    "update_health": false
+}

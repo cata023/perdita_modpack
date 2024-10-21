@@ -1,0 +1,52 @@
+{
+    "name": "Photosynthesis",
+    "description": "Every 2 seconds, while exposed to the sun, you recover 1 HP and 1 Hunger at the cost of 2 thirst.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:exposed_to_sun"
+            },
+            {
+                "inverted": true,
+                "type": "origins:power",
+                "power": "perdita:ability/druid/active_root"
+            },
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:relative_health",
+                        "comparison": "<=",
+                        "compare_to": 1
+                    },
+                    {
+                        "type": "origins:food_level",
+                        "comparison": "<=",
+                        "compare_to": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "type": "origins:action_over_time",
+    "interval": 40,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:grant_advancement",
+                "advancement": "perdita:photosynthesis"
+            },
+            {
+                "type": "origins:feed",
+                "food": 1,
+                "saturation": 1
+            },
+            {
+                "type": "origins:heal",
+                "amount": 1
+            }
+        ]
+    }
+}

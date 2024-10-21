@@ -1,0 +1,31 @@
+{
+    "name": "Guardian Diet",
+    "description": "Ink sacs make for a tasty treat. They count as food for you, giving you 4 hunger, 2 saturation, and the status effect Nourishment 1 for 30 seconds.",
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:ink_sac"
+        }
+    },
+    "food_modifier": {
+        "operation": "add_base_late",
+        "value": 3,
+        "name": "perdita_ink_sac_eating"
+    },
+    "saturation_modifier": {
+        "operation": "add_base_late",
+        "value": 1,
+        "name": "perdita_ink_sac_eating"
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "farmersdelight:nourishment",
+            "duration": 600,
+            "amplifier": 0,
+            "show_particles": true,
+            "show_icon": true
+        }
+    }
+}

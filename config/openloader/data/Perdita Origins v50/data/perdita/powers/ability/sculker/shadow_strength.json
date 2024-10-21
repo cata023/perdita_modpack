@@ -1,0 +1,21 @@
+{
+    "name": "Warrior of Darkness",
+    "description": "Your sculk infection strives while not exposed to the sun. You become stronger as it reinforces your body.",
+    "condition": {
+        "inverted": true,
+        "type": "origins:exposed_to_sun"
+    },
+    "type": "origins:action_over_time",
+    "interval": 200,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "tipsylib:lesser_strength",
+            "duration": 220,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "name": "Hungry",
+    "description": "Whenever you gain exhaustion, you receive twice as much.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": 1,
+        "name": "perdita_hungry"
+    }
+}

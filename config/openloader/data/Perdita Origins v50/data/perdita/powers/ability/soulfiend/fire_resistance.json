@@ -1,0 +1,17 @@
+{
+    "name": "Fire Resistance",
+    "description": "You have permanent Fire Resistance 1.",
+    "type": "origins:action_over_time",
+    "interval": 200,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:fire_resistance",
+            "duration": 220,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Shroomy Metabolism",
+    "description": "The way that you digest food prevents you from being affected by any potion effects it might otherwise give you.",
+    "type": "origins:modify_food",
+    "prevent_effects": true
+}

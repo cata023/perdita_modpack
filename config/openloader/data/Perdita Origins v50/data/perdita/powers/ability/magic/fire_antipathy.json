@@ -1,0 +1,20 @@
+{
+    "name": "Fire Antipathy",
+    "description": "-30% Fire Spell Power\n-30% Fire Magic Resistance",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "irons_spellbooks:fire_spell_power",
+            "operation": "addition",
+            "value": -0.3,
+            "name": "perdita_fire_antipathy"
+        },
+        {
+            "attribute": "irons_spellbooks:fire_magic_resist",
+            "operation": "addition",
+            "value": -0.3,
+            "name": "perdita_fire_antipathy"
+        }
+    ],
+    "update_health": false
+}

@@ -1,0 +1,130 @@
+{
+    "name": "Dreamscape",
+    "description": "Lucidly dream into phantasmal dimension. You are invulnerable here, but also cannot regenerate hp, thirst, or hunger.",
+    "hidden": true,
+    "type": "origins:multiple",
+    "prevent_death": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:dreamscape"
+        },
+        "type": "origins:prevent_death"
+    },
+    "prevent_regen": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:dreamscape"
+        },
+        "type": "origins:modify_healing",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0,
+            "name": "dreamscape_healing"
+        }
+    },
+    "prevent_damage": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:dreamscape"
+        },
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:constant",
+            "value": true
+        }
+    },
+    "prevent_exhaustion": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:dreamscape"
+        },
+        "type": "origins:modify_exhaustion",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0,
+            "name": "dreamscape_exhaustion"
+        }
+    },
+    "prevent_flight": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:dreamscape"
+        },
+        "type": "origins:prevent_elytra_flight"
+    },
+    "dreamscape_insomnia": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:dreamscape"
+        },
+        "type": "origins:modify_insomnia_ticks",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    },
+    "dreamscape_projectile": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:dreamscape"
+        },
+        "type": "origins:modify_projectile_damage",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0,
+            "name": "dreamscape_projectile"
+        }
+    },
+    "dreamscape_chronos": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:dreamscape"
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "tipsylib:chronos",
+                "duration": 30,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": true,
+                "show_icon": false
+            }
+        }
+    },
+    "dreamscape_collision": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:dreamscape"
+        },
+        "type": "origins:prevent_entity_collision"
+    },
+    "prevent_item_use": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:dreamscape"
+        },
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "inverted": true,
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "kubejs:dreamcatcher"
+            }
+        }
+    },
+    "prevent_damaging": {
+        "condition": {
+            "type": "origins:dimension",
+            "dimension": "minecraft:dreamscape"
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "set_total",
+            "value": 0,
+            "name": "dreamscape_damaging"
+        }
+    }
+}

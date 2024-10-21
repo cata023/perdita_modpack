@@ -1,0 +1,22 @@
+{
+    "name": "Guardian",
+    "description": "Insert lore here. Minecraft guardians but they evolved.",
+    "powers": [
+        "perdita:ability/general/thirsty",
+        "perdita:ability/general/robust1",
+        "perdita:ability/magic/ice_affinity",
+        "perdita:ability/magic/lightning_antipathy",
+        "perdita:ability/guardian/spines",
+        "perdita:ability/guardian/aquatic",
+        "perdita:ability/guardian/conduit_power",
+        "perdita:ability/guardian/rain_buff",
+        "perdita:ability/guardian/drying",
+        "perdita:ability/guardian/ink_sac_eating",
+        "perdita:dreamscape"
+    ],
+    "icon": {
+        "item": "oceansdelight:guardian"
+    },
+    "order": 2,
+    "impact": 1
+}

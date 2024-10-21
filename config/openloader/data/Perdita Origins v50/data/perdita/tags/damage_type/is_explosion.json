@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#minecraft:is_explosion",
+        "supplementaries:bomb_explosion",
+        "supplementaries:player_bomb_explosion",
+        "createbigcannons:flak",
+        "createbigcannons:cannon_projectile",
+        "createbigcannons:big_cannon_projectile"
+    ]
+}

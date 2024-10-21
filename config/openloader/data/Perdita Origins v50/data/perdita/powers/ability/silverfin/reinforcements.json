@@ -1,0 +1,40 @@
+{
+    "name": "Reinforcements",
+    "description": "While near stone, once per minute you can call for backup whenever you're hit by a player.",
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:execute_command",
+            "command": "function perdita:reinforcements"
+        }
+    },
+    "bientity_condition": {
+        "type": "origins:actor_condition",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:origin",
+                    "origin": "perdita:silverfin"
+                },
+                {
+                    "type": "origins:block_in_radius",
+                    "block_condition": {
+                        "type": "origins:in_tag"
+                    },
+                    "radius": 5,
+                    "shape": "cube",
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:player"
+                }
+            ]
+        }
+    },
+    "cooldown": 1200
+}

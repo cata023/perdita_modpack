@@ -1,0 +1,24 @@
+{
+    "name": "Animated Object",
+    "description": "You don't need to breathe, and therefore cannot suffocate.",
+    "type": "origins:multiple",
+    "prevent_suffocation": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:in_tag",
+            "tag": "perdita:is_suffocation"
+        },
+        "modifier": {
+            "operation": "set_total",
+            "value": 0
+        }
+    },
+    "lungs": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:gain_air",
+            "value": 999
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Absorption",
+    "description": "While you're exposed to rain or touching water, regain 1 thirst droplet every second.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:in_rain"
+                    },
+                    {
+                        "type": "origins:fluid_height",
+                        "fluid": "minecraft:water",
+                        "comparison": "!=",
+                        "compare_to": 0
+                    }
+                ]
+            },
+            {
+                "inverted": true,
+                "type": "origins:power",
+                "power": "perdita:ability/druid/active_root"
+            }
+        ]
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:grant_advancement",
+        "advancement": "perdita:absorption"
+    }
+}

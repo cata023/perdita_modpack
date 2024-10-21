@@ -1,0 +1,23 @@
+{
+    "name": "Ceramic Body",
+    "description": "You take 50% more damage from explosions and falling.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:in_tag",
+                "tag": "perdita:is_falling"
+            },
+            {
+                "type": "origins:in_tag",
+                "tag": "perdita:is_explosion"
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "multiply_base_additive",
+        "value": 0.5,
+        "name": "perdita_ceramic_body"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Silverfin",
+    "description": "Insert lore here. Silverfish that got real",
+    "powers": [
+        "perdita:ability/general/frail",
+        "perdita:ability/general/claws",
+        "perdita:ability/silverfin/reinforcements",
+        "perdita:ability/silverfin/arthropod",
+        "perdita:ability/silverfin/cave_vision",
+        "perdita:ability/silverfin/haste",
+        "perdita:ability/silverfin/burrowing",
+        "perdita:ability/silverfin/friendly_silverfish",
+        "perdita:ability/silverfin/potion_immune",
+        "perdita:ability/silverfin/stonedweller",
+        "perdita:dreamscape"
+    ],
+    "icon": {
+        "item": "miners_delight:silverfish_eggs"
+    },
+    "order": 6,
+    "impact": 2
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Haniwa",
+    "description": "Insert lore here. Clay soldiers mod but sentient",
+    "powers": [
+        "perdita:ability/general/inexhaustible",
+        "perdita:ability/general/antidigestive",
+        "perdita:ability/magic/mundane",
+        "perdita:ability/haniwa/magic_immune",
+        "perdita:ability/haniwa/ceramic_body",
+        "perdita:ability/haniwa/kintsugi_regen",
+        "perdita:ability/haniwa/water_ignore",
+        "perdita:ability/haniwa/drowning_immune",
+        "perdita:ability/haniwa/potion_immune",
+        "perdita:dreamscape"
+    ],
+    "icon": {
+        "item": "minecraft:terracotta"
+    },
+    "order": 3,
+    "impact": 3
+}

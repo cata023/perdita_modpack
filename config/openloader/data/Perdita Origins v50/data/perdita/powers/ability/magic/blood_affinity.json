@@ -1,0 +1,20 @@
+{
+    "name": "Blood Affinity",
+    "description": "+30% Blood Spell Power\n+30% Blood Magic Resistance",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "irons_spellbooks:blood_spell_power",
+            "operation": "addition",
+            "value": 0.3,
+            "name": "perdita_blood_affinity"
+        },
+        {
+            "attribute": "irons_spellbooks:blood_magic_resist",
+            "operation": "addition",
+            "value": 0.3,
+            "name": "perdita_blood_affinity"
+        }
+    ],
+    "update_health": false
+}

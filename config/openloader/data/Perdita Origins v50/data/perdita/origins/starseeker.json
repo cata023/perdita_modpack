@@ -1,0 +1,23 @@
+{
+    "name": "Starseeker",
+    "description": "Lightning slime kinda, with magic. Insert lore here.",
+    "powers": [
+        "perdita:ability/general/thirsty",
+        "perdita:ability/general/absorption",
+        "perdita:ability/magic/lightning_affinity",
+        "perdita:ability/magic/ice_antipathy",
+        "perdita:ability/starseeker/spell_power",
+        "perdita:ability/starseeker/magic_weakness",
+        "perdita:ability/starseeker/mage_armor",
+        "perdita:ability/starseeker/plasmoid_body",
+        "perdita:ability/starseeker/lightning_immune",
+        "perdita:ability/starseeker/shrink",
+        "perdita:ability/starseeker/slime_jump",
+        "perdita:dreamscape"
+    ],
+    "icon": {
+        "item": "minecraft:slime_ball"
+    },
+    "order": 8,
+    "impact": 1
+}

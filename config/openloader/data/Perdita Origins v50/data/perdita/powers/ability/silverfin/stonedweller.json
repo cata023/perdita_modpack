@@ -1,0 +1,14 @@
+{
+    "name": "Stonedweller",
+    "description": "Being accustomed to living inside of stone blocks, you do not suffer from suffocation.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:in_tag",
+        "tag": "perdita:is_suffocation"
+    },
+    "modifier": {
+        "operation": "set_total",
+        "value": 0,
+        "name": "perdita_stonedweller"
+    }
+}

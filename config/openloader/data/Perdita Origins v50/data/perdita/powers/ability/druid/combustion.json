@@ -1,0 +1,18 @@
+{
+    "name": "Spontaneous Combustion",
+    "description": "While in the nether, every 10 seconds you will have a 1/10 chance to spontaneously combust for 5 seconds.",
+    "condition": {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether"
+    },
+    "type": "origins:action_over_time",
+    "interval": 200,
+    "entity_action": {
+        "type": "origins:chance",
+        "chance": 0.1,
+        "action": {
+            "type": "origins:set_on_fire",
+            "duration": 100
+        }
+    }
+}

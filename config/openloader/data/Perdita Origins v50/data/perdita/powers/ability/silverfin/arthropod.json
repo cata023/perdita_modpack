@@ -1,0 +1,6 @@
+{
+    "name": "Arthropod",
+    "description": "You are counted as an arthropod.",
+    "type": "origins:entity_group",
+    "group": "arthropod"
+}

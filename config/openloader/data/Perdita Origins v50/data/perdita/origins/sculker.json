@@ -1,0 +1,23 @@
+{
+    "name": "Sculker",
+    "description": "Sculk cancer or something. Insert lore here",
+    "powers": [
+        "perdita:ability/general/robust2",
+        "perdita:ability/general/claws",
+        "perdita:ability/general/thirsty",
+        "perdita:ability/general/hungry",
+        "perdita:ability/magic/eldritch_affinity",
+        "perdita:ability/magic/nature_antipathy",
+        "perdita:ability/sculker/blooming_recovery",
+        "perdita:ability/sculker/shadow_strength",
+        "perdita:ability/sculker/scythe_weakness",
+        "perdita:ability/sculker/planar_sight",
+        "perdita:ability/sculker/level_drain",
+        "perdita:dreamscape"
+    ],
+    "icon": {
+        "item": "minecraft:sculk"
+    },
+    "order": 5,
+    "impact": 3
+}

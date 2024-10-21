@@ -1,0 +1,3 @@
+summon silverfish ~ ~ ~ {ActiveEffects:[{Id:5,Amplifier:0,Duration:1200,ShowParticles:0b},{Id:11,Amplifier:2,Duration:1200,ShowParticles:0b}]}
+summon silverfish ~ ~ ~ {ActiveEffects:[{Id:5,Amplifier:0,Duration:1200,ShowParticles:0b},{Id:11,Amplifier:2,Duration:1200,ShowParticles:0b}]}
+summon silverfish ~ ~ ~ {ActiveEffects:[{Id:5,Amplifier:0,Duration:1200,ShowParticles:0b},{Id:11,Amplifier:2,Duration:1200,ShowParticles:0b}]}
