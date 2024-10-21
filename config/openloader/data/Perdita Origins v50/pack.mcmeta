@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "name": "Perdita Origins",
+        "id": "perdita",
+        "pack_format": 15,
+        "version": "v50",
+        "authors": [
+            "cata23"
+        ],
+        "description": "The official datapack for Perdita Origins."
+    }
+}

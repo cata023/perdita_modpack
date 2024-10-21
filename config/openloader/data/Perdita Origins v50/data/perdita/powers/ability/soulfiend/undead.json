@@ -1,0 +1,6 @@
+{
+    "name": "Undead",
+    "description": "You are counted as an undead entity.",
+    "type": "origins:entity_group",
+    "group": "undead"
+}

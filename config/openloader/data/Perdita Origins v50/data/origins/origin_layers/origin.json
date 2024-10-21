@@ -1,0 +1,22 @@
+{
+    "order": 0,
+    "origins": [
+        "perdita:myconid",
+        "perdita:guardian",
+        "perdita:sculker",
+        "perdita:haniwa",
+        "perdita:silverfin",
+        "perdita:soulfiend",
+        "perdita:druid",
+        "perdita:starseeker",
+        "perdita:human"
+    ],
+    "enabled": true,
+    "replace": true,
+    "loading_priority": 1000,
+    "name": "Origin",
+    "missing_name": "Originless",
+    "missing_description": "You have no origin.",
+    "allow_random": true,
+    "default_origin": "perdita:human"
+}

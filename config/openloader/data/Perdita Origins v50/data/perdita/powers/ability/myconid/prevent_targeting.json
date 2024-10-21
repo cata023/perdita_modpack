@@ -1,0 +1,9 @@
+{
+    "name": "Fungal Composition",
+    "description": "Due to your INSERT LORE HERE, you are not targeted by hostile mobs (unless you anger them, of course).",
+    "type": "apugli:mobs_ignore",
+    "bientity_condition": {
+        "inverted": true,
+        "type": "origins:attacker"
+    }
+}

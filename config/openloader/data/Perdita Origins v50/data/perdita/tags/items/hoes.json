@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#minecraft:hoes",
+        "#forge:tools/hoes",
+        "create_ironworks:brass_hoe",
+        "create_ironworks:copper_hoe",
+        "create_ironworks:steel_hoe",
+        "create_ironworks:bronze_hoe"
+    ]
+}

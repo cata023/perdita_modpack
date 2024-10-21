@@ -1,0 +1,19 @@
+{
+    "name": "Soulless",
+    "description": "You are immune to magic damage.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:in_tag",
+                "tag": "perdita:is_magic"
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "set_total",
+        "value": 0,
+        "name": "perdita_soulless"
+    }
+}

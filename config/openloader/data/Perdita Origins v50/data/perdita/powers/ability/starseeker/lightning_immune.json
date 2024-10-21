@@ -1,0 +1,36 @@
+{
+    "name": "Charged",
+    "description": "You are immune to lightning damage, as well as the Shocked potion effect. You also permanently have the Slimed potion effect.",
+    "type": "origins:multiple",
+    "shocked_immune": {
+        "type": "origins:effect_immunity",
+        "effect": "cofh_core:shocked"
+    },
+    "lightning_immune": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:in_tag",
+            "tag": "perdita:is_lightning"
+        },
+        "modifier": {
+            "operation": "set_total",
+            "value": 0,
+            "name": "perdita_lightning_immune"
+        }
+    },
+    "slimed": {
+        "type": "origins:action_over_time",
+        "interval": 200,
+        "entity_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "cofh_core:slimed",
+                "duration": 220,
+                "amplifier": 0,
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            }
+        }
+    }
+}

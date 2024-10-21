@@ -1,0 +1,34 @@
+{
+    "name": "Scythe Weakness",
+    "description": "Your sculk-infested composition makes you weak to scythes and hoes; the tools that are often used to harvest the sculk.",
+    "type": "origins:modify_damage_taken",
+    "bientity_condition": {
+        "type": "origins:actor_condition",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "perdita:hoes"
+                        }
+                    },
+                    {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "tag": "perdita:scythes"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "modifier": {
+        "operation": "multiply_base_additive",
+        "value": 0.2,
+        "name": "perdita_scythe_weakness"
+    }
+}

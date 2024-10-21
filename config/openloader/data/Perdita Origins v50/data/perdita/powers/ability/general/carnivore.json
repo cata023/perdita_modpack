@@ -1,0 +1,19 @@
+{
+    "name": "Carnivore",
+    "description": "You get no nutrition from food that isn't meat.",
+    "type": "origins:modify_food",
+    "item_condition": {
+        "inverted": true,
+        "type": "origins:meat"
+    },
+    "food_modifier": {
+        "operation": "set_total",
+        "value": 0,
+        "name": "perdita_herbivore_food"
+    },
+    "saturation_modifier": {
+        "operation": "set_total",
+        "value": 0,
+        "name": "perdita_herbivore_saturation"
+    }
+}

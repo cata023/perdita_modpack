@@ -1,0 +1,22 @@
+{
+    "values": [
+        "minecraft:grass_block",
+        "biomesoplenty:origin_grass_block",
+        "deep_aether:golden_heights_grass_block",
+        "immersive_weathering:rooted_grass_block",
+        "immersive_weathering:grassy_earthen_clay",
+        "immersive_weathering:grassy_sandy_dirt",
+        "immersive_weathering:grassy_silt",
+        "immersive_weathering:grassy_permafrost",
+        "regions_unexplored:stone_grass_block",
+        "regions_unexplored:deepslate_grass_block",
+        "regions_unexplored:alpha_grass_block",
+        "regions_unexplored:peat_grass_block",
+        "regions_unexplored:silt_grass_block",
+        "regions_unexplored:chalk_grass_block",
+        "regions_unexplored:argillite_grass_block",
+        "aether:aether_grass_block",
+        "aether:enchanted_aether_grass_block",
+        "outer_end:azure_grass"
+    ]
+}

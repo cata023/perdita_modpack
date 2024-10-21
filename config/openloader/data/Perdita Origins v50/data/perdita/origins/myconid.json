@@ -1,0 +1,20 @@
+{
+    "name": "Myconid",
+    "description": "Mushroom! We're Rich!\nInsert Lore Here",
+    "powers": [
+        "perdita:ability/myconid/spores",
+        "perdita:ability/myconid/potion_immune",
+        "perdita:ability/myconid/repellence",
+        "perdita:ability/myconid/light_weakness",
+        "perdita:ability/myconid/self_harvest",
+        "perdita:ability/myconid/spread_mycelium",
+        "perdita:ability/myconid/prevent_food_effects",
+        "perdita:ability/myconid/prevent_targeting",
+        "perdita:dreamscape"
+    ],
+    "icon": {
+        "item": "farmersdelight:brown_mushroom_colony"
+    },
+    "order": 4,
+    "impact": 2
+}

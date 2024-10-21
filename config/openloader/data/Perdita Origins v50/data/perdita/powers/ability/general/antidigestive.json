@@ -1,0 +1,15 @@
+{
+    "name": "Antidigestive",
+    "description": "You get no nutrition from eating food.",
+    "type": "origins:modify_food",
+    "food_modifier": {
+        "operation": "set_total",
+        "value": 0,
+        "name": "perdita_antidigestive_food"
+    },
+    "saturation_modifier": {
+        "operation": "set_total",
+        "value": 0,
+        "name": "perdita_antidigestive_saturation"
+    }
+}

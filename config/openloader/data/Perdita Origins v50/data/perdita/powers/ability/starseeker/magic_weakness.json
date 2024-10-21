@@ -1,0 +1,14 @@
+{
+    "name": "Ethereal Bane",
+    "description": "Due to your inherently magical nature, any disturbances in your magic will cause more damage than it would to a different creature.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:in_tag",
+        "tag": "perdita:is_magic"
+    },
+    "modifier": {
+        "operation": "add_base_early",
+        "value": 1,
+        "name": "perdita_magic_weakness"
+    }
+}

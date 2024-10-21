@@ -1,0 +1,10 @@
+{
+    "name": "Thirsty",
+    "description": "You lose thirst over time. Specifically, 1 thirst droplet every 30 seconds.",
+    "type": "origins:action_over_time",
+    "interval": 75,
+    "entity_action": {
+        "type": "origins:grant_advancement",
+        "advancement": "perdita:thirsty"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Stoneskill",
+    "description": "Being a silverfin, you are very acquainted with how to move material quickly. You have Haste 1 permanently.",
+    "type": "origins:action_over_time",
+    "interval": 200,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:haste",
+            "duration": 220,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    }
+}

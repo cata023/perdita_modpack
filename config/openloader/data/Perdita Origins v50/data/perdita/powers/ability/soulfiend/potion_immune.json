@@ -1,0 +1,6 @@
+{
+    "name": "Fiendish Constitution",
+    "description": "You are immune to the Hunger debuff.",
+    "type": "origins:effect_immunity",
+    "effect": "minecraft:hunger"
+}

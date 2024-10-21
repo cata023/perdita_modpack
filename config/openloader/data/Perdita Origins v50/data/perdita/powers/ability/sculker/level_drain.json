@@ -1,0 +1,114 @@
+{
+    "name": "Level Drain",
+    "description": "The sculk infection within you is voracious, choosing to feast on your own XP. Every 5 minutes, you lose 1 XP level. If you don't have any levels to lose, you might suffer some negative consequences...",
+    "type": "origins:action_over_time",
+    "interval": 6000,
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:xp_levels",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "if_action": {
+            "type": "origins:add_xp",
+            "levels": -1
+        },
+        "else_action": {
+            "type": "origins:choice",
+            "actions": [
+                {
+                    "weight": 1,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "irons_spellbooks:slowed",
+                            "duration": 6000,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    }
+                },
+                {
+                    "weight": 1,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "drinkbeer:drunk",
+                            "duration": 6000,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    }
+                },
+                {
+                    "weight": 1,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:hunger",
+                            "duration": 1200,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    }
+                },
+                {
+                    "weight": 1,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "tipsylib:lesser_weakness",
+                            "duration": 6000,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    }
+                },
+                {
+                    "weight": 1,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "minecraft:wither",
+                            "duration": 400,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    }
+                },
+                {
+                    "weight": 1,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "tipsylib:vulnerability",
+                            "duration": 3000,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    }
+                },
+                {
+                    "weight": 1,
+                    "element": {
+                        "type": "origins:apply_effect",
+                        "effect": {
+                            "effect": "tipsylib:internal_bleeding",
+                            "duration": 3000,
+                            "amplifier": 0,
+                            "show_particles": true,
+                            "show_icon": true
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

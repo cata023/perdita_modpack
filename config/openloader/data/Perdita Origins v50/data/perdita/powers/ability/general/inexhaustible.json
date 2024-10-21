@@ -1,0 +1,10 @@
+{
+    "name": "Inexhaustible",
+    "description": "You do not experience hunger or thirst.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "set_total",
+        "value": 0,
+        "name": "perdita_inexhaustible"
+    }
+}

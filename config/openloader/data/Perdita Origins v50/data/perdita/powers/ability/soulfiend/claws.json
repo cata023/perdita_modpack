@@ -1,0 +1,87 @@
+{
+    "name": "Claws",
+    "description": "+4 attack damage with fists, but only 2 attack speed.\nFists act as iron level tools.",
+    "type": "origins:multiple",
+    "bonus_damage": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 4,
+            "name": "perdita_strong"
+        },
+        "tick_rate": 20,
+        "update_health": false
+    },
+    "bonus_attack_speed": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "generic.attack_speed",
+            "operation": "addition",
+            "value": -2,
+            "name": "perdita_claws"
+        },
+        "tick_rate": 20,
+        "update_health": false
+    },
+    "mining_speed": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:modify_break_speed",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:mineable/pickaxe"
+        },
+        "modifier": {
+            "operation": "multiply_total_multiplicative",
+            "value": 3,
+            "name": "perdita_claws"
+        }
+    },
+    "harvestability": {
+        "type": "origins:modify_harvest",
+        "block_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_tag",
+                    "tag": "minecraft:mineable/pickaxe"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:in_tag",
+                            "tag": "minecraft:needs_diamond_tool"
+                        },
+                        {
+                            "type": "origins:in_tag",
+                            "tag": "forge:needs_netherite_tool"
+                        }
+                    ]
+                }
+            ]
+        },
+        "allow": true
+    }
+}

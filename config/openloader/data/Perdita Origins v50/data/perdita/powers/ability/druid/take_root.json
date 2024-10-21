@@ -1,0 +1,87 @@
+{
+    "name": "Take Root",
+    "description": "Eating a golden apple while exposed to the sun, not riding/climbing anything, and on grass, will activate rooted mode. This mode lasts for 30 seconds, or until you toggle it otherwise, and has a cooldown of 2 minutes. While rooted, Photosynthesis and Absorption activate 4x as fast. Additionally, you get Precision 4 and Resistance 1 for as long as you're rooted. However, while in this state, you cannot move or jump.",
+    "type": "origins:multiple",
+    "activate_rooted_mode": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:climbing"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:riding"
+                },
+                {
+                    "type": "origins:on_block",
+                    "block_condition": {
+                        "type": "origins:in_tag",
+                        "tag": "perdita:grassy_blocks"
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:power",
+                    "power": "perdita:ability/druid/active_root"
+                },
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:golden_apple"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "perdita:ability/druid/rooted_mode_duration",
+                    "comparison": "==",
+                    "compare_to": 30
+                },
+                {
+                    "type": "apugli:grounded"
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:grant_power",
+                    "power": "perdita:ability/druid/active_root",
+                    "source": "perdita_ability_druid_take_root"
+                },
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "mainhand",
+                    "action": {
+                        "type": "origins:consume",
+                        "amount": 1
+                    }
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:block.mangrove_roots.place",
+                    "volume": 1.2,
+                    "pitch": 0.96
+                },
+                {
+                    "type": "origins:spawn_particles",
+                    "particle": "minecraft:spore_blossom",
+                    "count": 100,
+                    "speed": 1,
+                    "spread": {
+                        "x": 1,
+                        "y": 2,
+                        "z": 1
+                    }
+                }
+            ]
+        }
+    }
+}
