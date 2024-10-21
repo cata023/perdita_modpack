@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "packedup:golden_carrot_crate"
+        }
+    },
+    "output": {
+        "item": "numismatics:sprocket",
+        "count": 6
+    }
+}

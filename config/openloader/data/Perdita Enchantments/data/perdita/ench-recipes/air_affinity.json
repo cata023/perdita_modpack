@@ -1,0 +1,24 @@
+{
+    "enchantment_id": "ensorcellation:air_affinity",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:redstone",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:sugar",
+          "amount": 24
+        },
+        {
+          "id": "aether:cold_aercloud",
+          "amount": 16
+        },
+        {
+          "id": "quark:bottled_cloud",
+          "amount": 8
+        }
+      ]
+    }
+  }

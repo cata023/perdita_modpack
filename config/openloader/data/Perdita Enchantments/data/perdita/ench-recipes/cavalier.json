@@ -1,0 +1,24 @@
+{
+    "enchantment_id": "ensorcellation:cavalier",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:quartz",
+          "amount": 12
+        },
+        {
+          "id": "tags#forge:ingots/steel",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:saddle",
+          "amount": 1
+        }
+      ]
+    }
+  }

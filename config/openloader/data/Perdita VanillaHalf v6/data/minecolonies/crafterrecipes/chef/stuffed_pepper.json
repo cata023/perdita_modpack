@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "inputs": [
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "minecolonies:bell_pepper"
+    },
+    {
+      "item": "minecolonies:tomato"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecolonies:garlic"
+    },
+    {
+      "item": "minecolonies:eggplant"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "result": "minecolonies:stuffed_pepper",
+  "show-tooltip": true
+}

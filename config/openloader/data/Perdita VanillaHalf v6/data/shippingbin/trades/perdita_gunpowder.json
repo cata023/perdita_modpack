@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "packedup:gunpowder_crate"
+        }
+    },
+    "output": {
+        "item": "numismatics:cog",
+        "count": 1
+    }
+}

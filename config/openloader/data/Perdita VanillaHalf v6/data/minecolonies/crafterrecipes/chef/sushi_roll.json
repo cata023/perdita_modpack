@@ -1,0 +1,25 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "chef_crafting",
+  "inputs": [
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "minecraft:salmon"
+    },
+    {
+      "item": "minecolonies:garlic"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "minecolonies:onion"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "result": "minecolonies:sushi_roll",
+  "show-tooltip": true
+}

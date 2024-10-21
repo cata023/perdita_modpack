@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "farmersdelight:skillet",
+    "farmersdelight:flint_knife",
+    "farmersdelight:iron_knife",
+    "farmersdelight:diamond_knife",
+    "farmersdelight:netherite_knife",
+    "farmersdelight:golden_knife",
+    "aethersdelight:holystone_knife",
+    "aethersdelight:zanite_knife",
+    "aethersdelight:gravitite_knife",
+    "aethersdelight:arkenium_knife",
+    "irons_spellbooks:graybeard_staff",
+    "irons_spellbooks:artificer_cane",
+    "irons_spellbooks:ice_staff",
+    "irons_spellbooks:lightning_rod",
+    "irons_spellbooks:blood_staff",
+    "$minecraft:universal_enchants_axe",
+    "$minecraft:trident"
+  ],
+  "incompatible": [
+    "ensorcellation:damage_ender",
+    "ensorcellation:damage_villager",
+    "ensorcellation:magic_edge",
+    "minecraft:impaling",
+    "ensorcellation:instigating",
+    "ensorcellation:damage_illager",
+    "minecraft:power"
+  ]
+}

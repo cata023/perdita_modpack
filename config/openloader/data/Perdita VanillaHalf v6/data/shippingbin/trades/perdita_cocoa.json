@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "packedup:cocoa_bean_bag"
+        }
+    },
+    "output": {
+        "item": "numismatics:cog",
+        "count": 1
+    }
+}

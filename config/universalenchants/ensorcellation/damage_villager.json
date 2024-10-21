@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:sword_or_axe_or_crossbow"
+  ],
+  "incompatible": [
+    "ensorcellation:damage_ender",
+    "minecraft:bane_of_arthropods",
+    "ensorcellation:magic_edge",
+    "ensorcellation:instigating",
+    "minecraft:smite",
+    "minecraft:sharpness",
+    "ensorcellation:damage_illager"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+    "enchantment_id": "ensorcellation:damage_ender",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 1
+        },
+        {
+          "id": "outer_end:halite_crystal",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "amount": 1
+        }
+      ],
+      "2": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 2
+        },
+        {
+          "id": "outer_end:halite_crystal",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "amount": 2
+        }
+      ],
+      "3": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 4
+        },
+        {
+          "id": "outer_end:halite_crystal",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "amount": 4
+        }
+      ],
+      "4": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 8
+        },
+        {
+          "id": "outer_end:halite_crystal",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "amount": 8
+        }
+      ],
+      "5": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:ender_eye",
+          "amount": 16
+        },
+        {
+          "id": "outer_end:halite_crystal",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:fermented_spider_eye",
+          "amount": 16
+        }
+      ]
+    }
+  }

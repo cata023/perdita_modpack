@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "packedup:book_bundle"
+        }
+    },
+    "output": {
+        "item": "numismatics:cog",
+        "count": 3
+    }
+}

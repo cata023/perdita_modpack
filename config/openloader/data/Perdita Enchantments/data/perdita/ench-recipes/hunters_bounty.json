@@ -1,0 +1,42 @@
+{
+    "enchantment_id": "ensorcellation:hunter",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 24
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:emerald",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:amethyst_block",
+          "amount": 4
+        }
+      ],
+      "2": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 48
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:emerald",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:amethyst_block",
+          "amount": 8
+        }
+      ]
+    }
+  }

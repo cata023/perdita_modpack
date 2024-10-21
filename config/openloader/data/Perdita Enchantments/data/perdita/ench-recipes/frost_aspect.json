@@ -1,0 +1,46 @@
+{
+    "enchantment_id": "ensorcellation:frost_aspect",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:redstone",
+          "amount": 24
+        },
+        {
+          "id": "minecraft:blue_ice",
+          "amount": 32
+        },
+        {
+          "id": "biomesoplenty:snowblossom_sapling",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:potion",
+          "amount": 1,
+          "tag": "{Potion: \"minecraft:slowness\"}",
+          "remainderId": "minecraft:glass_bottle"
+        }
+      ],
+      "2": [
+        {
+          "id": "minecraft:redstone",
+          "amount": 48
+        },
+        {
+          "id": "minecraft:blue_ice",
+          "amount": 64
+        },
+        {
+          "id": "biomesoplenty:snowblossom_sapling",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:potion",
+          "amount": 1,
+          "tag": "{Potion: \"minecraft:strong_slowness\"}",
+          "remainderId": "minecraft:glass_bottle"
+        }
+      ]
+    }
+  }

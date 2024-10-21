@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "packedup:golden_apple_basket"
+        }
+    },
+    "output": {
+        "item": "numismatics:cog",
+        "count": 3
+    }
+}

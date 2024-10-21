@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "packedup:glowstone_dust_bag"
+        }
+    },
+    "output": {
+        "item": "numismatics:sprocket",
+        "count": 2
+    }
+}

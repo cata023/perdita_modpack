@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "packedup:diamond_pallet"
+        }
+    },
+    "output": {
+        "item": "numismatics:crown",
+        "count": 2
+    }
+}

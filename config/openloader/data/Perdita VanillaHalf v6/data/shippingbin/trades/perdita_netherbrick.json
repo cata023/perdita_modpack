@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "packedup:nether_brick_pallet"
+        }
+    },
+    "output": {
+        "item": "numismatics:cog",
+        "count": 1
+    }
+}

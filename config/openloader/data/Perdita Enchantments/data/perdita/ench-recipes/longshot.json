@@ -1,0 +1,42 @@
+{
+    "enchantment_id": "simplemusket:longshot",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:feather",
+          "amount": 12
+        },
+        {
+          "id": "upgrade_aquatic:thrasher_tooth",
+          "amount": 4
+        },
+        {
+          "id": "tags#forge:ingots/cast_iron",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 8
+        }
+      ],
+      "2": [
+        {
+          "id": "minecraft:feather",
+          "amount": 24
+        },
+        {
+          "id": "upgrade_aquatic:thrasher_tooth",
+          "amount": 8
+        },
+        {
+          "id": "tags#forge:ingots/cast_iron",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 16
+        }
+      ]
+    }
+  }

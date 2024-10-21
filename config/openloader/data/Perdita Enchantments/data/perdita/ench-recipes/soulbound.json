@@ -1,0 +1,24 @@
+{
+    "enchantment_id": "ensorcellation:soulbound",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "amount": 24
+        },
+        {
+          "id": "minecraft:netherite_scrap",
+          "amount": 1
+        },
+        {
+          "id": "tags#minecraft:soul_fire_base_blocks",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:echo_shard",
+          "amount": 2
+        }
+      ]
+    }
+  }

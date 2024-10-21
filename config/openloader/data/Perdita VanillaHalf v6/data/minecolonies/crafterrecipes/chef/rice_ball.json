@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "chef_crafting",
+  "inputs": [
+    {
+      "item": "minecolonies:tofu"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "result": "minecolonies:rice_ball",
+  "show-tooltip": true
+}

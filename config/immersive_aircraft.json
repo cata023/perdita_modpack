@@ -1,0 +1,66 @@
+{
+  "enableDropsForNonPlayer": true,
+  "enableCrashExplosion": true,
+  "enableCrashBlockDestruction": true,
+  "enableCrashFire": true,
+  "crashExplosionRadius": 6.0,
+  "crashDamage": 20.0,
+  "preventKillThroughCrash": false,
+  "healthBarRow": 0,
+  "damagePerHealthPoint": 30,
+  "separateCamera": true,
+  "useThirdPersonByDefault": true,
+  "enableTrails": true,
+  "renderDistance": 192.0,
+  "fuelConsumption": 5.0,
+  "windClearWeather": 3.0,
+  "windRainWeather": 9.0,
+  "windThunderWeather": 9.0,
+  "repairSpeed": 0.025,
+  "repairExhaustion": 0.5,
+  "collisionDamage": true,
+  "burnFuelInCreative": false,
+  "acceptVanillaFuel": false,
+  "useCustomKeybindSystem": true,
+  "showHotbarEngineGauge": true,
+  "weaponsAreDestructive": false,
+  "dropInventory": true,
+  "dropUpgrades": true,
+  "regenerateHealthEveryNTicks": 0,
+  "requireShiftForRepair": false,
+  "fuelList": {
+    "immersive_weathering:charred_log": 1600,
+    "minecraft:coal": 1600,
+    "minecraft:charcoal": 1600,
+    "aether:ambrosium_shard": 1600,
+    "minecraft:blaze_rod": 2400,
+    "tfmg:coal_coke": 3200,
+    "tfmg:coal_coke_dust": 3200,
+    "tfmg:fossilstone": 4000,
+    "minecraft:dried_kelp_block": 4000,
+    "create:blaze_cake": 6400,
+    "minecraft:coal_block": 12800,
+    "quark:charcoal_block": 12800,
+    "aether:ambrosium_block": 12800,
+    "quark:blaze_lantern": 24000,
+    "tfmg:coal_coke_block": 28800
+  },
+  "validDimensions": {
+    "minecraft:the_nether": true,
+    "minecraft:overworld": true,
+    "minecraft:the_end": true
+  },
+  "gunpowderAmmunition": {
+    "createbigcannons:machine_gun_round": 200
+  },
+  "arrowAmmunition": {
+    "minecraft:tipped_arrow": 100,
+    "minecraft:arrow": 100,
+    "minecraft:spectral_arrow": 100
+  },
+  "bombBayAmmunition": {
+    "minecraft:tnt": 100
+  },
+  "version": 1,
+  "name": "immersive_aircraft"
+}

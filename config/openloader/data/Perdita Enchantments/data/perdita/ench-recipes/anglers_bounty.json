@@ -1,0 +1,42 @@
+{
+    "enchantment_id": "ensorcellation:angler",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:nautilus_shell",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:heart_of_the_sea",
+          "amount": 1
+        }
+      ],
+      "2": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:nautilus_shell",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:heart_of_the_sea",
+          "amount": 2
+        }
+      ]
+    }
+  }

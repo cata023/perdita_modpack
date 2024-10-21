@@ -1,0 +1,26 @@
+{
+    "enchantment_id": "ensorcellation:instigating",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 12
+        },
+        {
+          "id": "minecraft:netherite_scrap",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:potion",
+          "amount": 1,
+          "tag": "{Potion: \"minecraft:strong_strength\"}",
+          "remainderId": "minecraft:glass_bottle"
+        }
+      ]
+    }
+  }

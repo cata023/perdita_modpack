@@ -1,0 +1,227 @@
+
+[origins]
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:arachnid"]
+		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."origins:blazeborn"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."origins:elytrian"]
+		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."origins:merling"]
+		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."origins:phantom"]
+		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."perdita:dreamscaper"]
+		enabled = true
+		"perdita:dreamscape" = true
+
+	[origins."perdita:starseeker"]
+		enabled = true
+		"perdita:dreamscape" = true
+		"perdita:ability/general/thirsty" = true
+		"perdita:ability/magic/lightning_affinity" = true
+		"perdita:ability/magic/ice_antipathy" = true
+		"perdita:ability/starseeker/spell_power" = true
+		"perdita:ability/starseeker/magic_weakness" = true
+		"perdita:ability/starseeker/mage_armor" = true
+		"perdita:ability/starseeker/plasmoid_body" = true
+		"perdita:ability/starseeker/lightning_immune" = true
+		"perdita:ability/starseeker/shrink" = true
+		"perdita:ability/starseeker/slime_jump" = true
+		"perdita:ability/general/absorption" = true
+
+	[origins."perdita:silverfin"]
+		enabled = true
+		"perdita:ability/general/frail" = true
+		"perdita:ability/general/claws" = true
+		"perdita:ability/silverfin/reinforcements" = true
+		"perdita:ability/silverfin/arthropod" = true
+		"perdita:ability/silverfin/cave_vision" = true
+		"perdita:ability/silverfin/haste" = true
+		"perdita:ability/silverfin/burrowing" = true
+		"perdita:ability/silverfin/friendly_silverfish" = true
+		"perdita:ability/silverfin/potion_immune" = true
+		"perdita:dreamscape" = true
+		"perdita:ability/silverfin/stonedweller" = true
+
+	[origins."perdita:guardian"]
+		enabled = true
+		"perdita:ability/general/thirsty" = true
+		"perdita:ability/general/robust1" = true
+		"perdita:ability/magic/ice_affinity" = true
+		"perdita:ability/magic/lightning_antipathy" = true
+		"perdita:ability/guardian/spines" = true
+		"perdita:ability/guardian/aquatic" = true
+		"perdita:ability/guardian/conduit_power" = true
+		"perdita:ability/guardian/rain_buff" = true
+		"perdita:ability/guardian/fire_drying" = true
+		"perdita:ability/guardian/nether_drying" = true
+		"perdita:ability/guardian/ink_sac_eating" = true
+		"perdita:ability/guardian/drying" = true
+		"perdita:dreamscape" = true
+
+	[origins."perdita:sculker"]
+		enabled = true
+		"perdita:ability/general/robust2" = true
+		"perdita:ability/general/strong" = true
+		"perdita:ability/general/thirsty" = true
+		"perdita:ability/general/hungry" = true
+		"perdita:ability/magic/eldritch_affinity" = true
+		"perdita:ability/magic/nature_antipathy" = true
+		"perdita:ability/sculker/blooming_recovery" = true
+		"perdita:ability/sculker/shadow_strength" = true
+		"perdita:ability/sculker/scythe_weakness" = true
+		"perdita:ability/sculker/planar_sight" = true
+		"perdita:ability/sculker/level_drain" = true
+		"perdita:ability/general/claws" = true
+		"perdita:dreamscape" = true
+
+	[origins."perdita:soulfiend"]
+		enabled = true
+		"perdita:ability/general/antidigestive" = true
+		"perdita:dreamscape" = true
+		"perdita:ability/general/robust1" = true
+		"perdita:ability/general/claws" = true
+		"perdita:ability/general/thirstless" = true
+		"perdita:ability/general/carnivore" = true
+		"perdita:ability/magic/blood_affinity" = true
+		"perdita:ability/magic/holy_antipathy" = true
+		"perdita:ability/soulfiend/soul_drain" = true
+		"perdita:ability/soulfiend/soul_capture" = true
+		"perdita:ability/soulfiend/undead" = true
+		"perdita:ability/soulfiend/fire_resistance" = true
+		"perdita:ability/soulfiend/sun_withering" = true
+		"perdita:ability/soulfiend/water_weakness" = true
+		"perdita:ability/soulfiend/soul_speed" = true
+		"perdita:ability/soulfiend/potion_immune" = true
+		"perdita:ability/soulfiend/nether_spawn" = true
+		"perdita:ability/soulfiend/claws" = true
+
+	[origins."perdita:druid"]
+		enabled = true
+		"perdita:ability/general/thirsty" = true
+		"perdita:ability/general/herbivore" = true
+		"perdita:ability/magic/nature_affinity" = true
+		"perdita:ability/magic/fire_antipathy" = true
+		"perdita:ability/druid/precision" = true
+		"perdita:ability/druid/double_fire" = true
+		"perdita:ability/druid/combustion" = true
+		"perdita:ability/druid/absorption" = true
+		"perdita:ability/druid/take_root" = true
+		"perdita:ability/general/antidigestive" = true
+		"perdita:ability/druid/rooted_mode" = true
+		"perdita:dreamscape" = true
+		"perdita:ability/druid/photosynthesis" = true
+		"perdita:ability/general/absorption" = true
+
+	[origins."perdita:haniwa"]
+		enabled = true
+		"perdita:ability/general/inexhaustible" = true
+		"perdita:ability/general/thirstless" = true
+		"perdita:ability/magic/mundane" = true
+		"perdita:ability/haniwa/magic_immune" = true
+		"perdita:ability/haniwa/ceramic_body" = true
+		"perdita:ability/haniwa/kintsugi_regen" = true
+		"perdita:ability/haniwa/water_ignore" = true
+		"perdita:ability/haniwa/drowning_immune" = true
+		"perdita:ability/haniwa/potion_immune" = true
+		"perdita:ability/general/antidigestive" = true
+		"perdita:dreamscape" = true
+
+	[origins."perdita:human"]
+		enabled = true
+		"perdita:dreamscape" = true
+
+	[origins."perdita:myconid"]
+		enabled = true
+		"perdita:ability/general/thirsty" = true
+		"perdita:ability/myconid/spores" = true
+		"perdita:ability/myconid/repellence" = true
+		"perdita:ability/myconid/light_weakness" = true
+		"perdita:ability/myconid/self_harvest" = true
+		"perdita:ability/myconid/spread_mycelium" = true
+		"perdita:ability/myconid/prevent_food_effects" = true
+		"perdita:ability/myconid/potion_immune" = true
+		"perdita:ability/myconid/prevent_targeting" = true
+		"perdita:dreamscape" = true
+

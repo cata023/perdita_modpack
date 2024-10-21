@@ -1,0 +1,96 @@
+{
+    "enchantment_id": "simplemusket:firepower",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:gunpowder",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 2
+        },
+        {
+          "id": "tags#forge:ingots/cast_iron",
+          "amount": 1
+        },
+        {
+          "id": "tags#forge:ingots/iron",
+          "amount": 2
+        }
+      ],
+      "2": [
+        {
+          "id": "minecraft:gunpowder",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 4
+        },
+        {
+          "id": "tags#forge:ingots/cast_iron",
+          "amount": 2
+        },
+        {
+          "id": "tags#forge:ingots/iron",
+          "amount": 4
+        }
+      ],
+      "3": [
+        {
+          "id": "minecraft:gunpowder",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 8
+        },
+        {
+          "id": "tags#forge:ingots/cast_iron",
+          "amount": 4
+        },
+        {
+          "id": "tags#forge:ingots/iron",
+          "amount": 8
+        }
+      ],
+      "4": [
+        {
+          "id": "minecraft:gunpowder",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 16
+        },
+        {
+          "id": "tags#forge:ingots/cast_iron",
+          "amount": 8
+        },
+        {
+          "id": "tags#forge:ingots/iron",
+          "amount": 16
+        }
+      ],
+      "5": [
+        {
+          "id": "minecraft:gunpowder",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 32
+        },
+        {
+          "id": "tags#forge:ingots/cast_iron",
+          "amount": 16
+        },
+        {
+          "id": "tags#forge:ingots/iron",
+          "amount": 32
+        }
+      ]
+    }
+  }

@@ -1,0 +1,66 @@
+{
+    "enchantment_id": "ensorcellation:vorpal",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 8
+        },
+        {
+          "id": "tags#forge:heads",
+          "amount": 1
+        },
+        {
+          "id": "minecraft:fire_charge",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:potion",
+          "amount": 1,
+          "tag": "{Potion: \"minecraft:strong_strength\"}",
+          "remainderId": "minecraft:glass_bottle"
+        }
+      ],
+      "2": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 12
+        },
+        {
+          "id": "tags#forge:heads",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:fire_charge",
+          "amount": 6
+        },
+        {
+          "id": "minecraft:potion",
+          "amount": 1,
+          "tag": "{Potion: \"minecraft:strong_strength\"}",
+          "remainderId": "minecraft:glass_bottle"
+        }
+      ],
+      "3": [
+        {
+          "id": "minecraft:glowstone_dust",
+          "amount": 24
+        },
+        {
+          "id": "tags#forge:heads",
+          "amount": 3
+        },
+        {
+          "id": "minecraft:fire_charge",
+          "amount": 9
+        },
+        {
+          "id": "minecraft:potion",
+          "amount": 1,
+          "tag": "{Potion: \"minecraft:strong_strength\"}",
+          "remainderId": "minecraft:glass_bottle"
+        }
+      ]
+    }
+  }

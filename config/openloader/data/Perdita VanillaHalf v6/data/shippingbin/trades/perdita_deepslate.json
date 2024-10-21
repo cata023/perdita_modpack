@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "packedup:deepslate_pallet"
+        }
+    },
+    "output": {
+        "item": "numismatics:sprocket",
+        "count": 2
+    }
+}

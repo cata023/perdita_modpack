@@ -1,0 +1,106 @@
+{
+    "enchantment_id": "ensorcellation:magic_edge",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:amethyst_shard",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:potion",
+          "amount": 1,
+          "tag": "{Potion: \"minecraft:strong_harming\"}",
+          "remainderId": "minecraft:glass_bottle"
+        }
+      ],
+      "2": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:amethyst_shard",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:potion",
+          "amount": 1,
+          "tag": "{Potion: \"minecraft:strong_harming\"}",
+          "remainderId": "minecraft:glass_bottle"
+        }
+      ],
+      "3": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:amethyst_shard",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:potion",
+          "amount": 1,
+          "tag": "{Potion: \"minecraft:strong_harming\"}",
+          "remainderId": "minecraft:glass_bottle"
+        }
+      ],
+      "4": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:redstone_block",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:amethyst_shard",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:lingering_potion",
+          "amount": 1,
+          "tag": "{Potion: \"minecraft:strong_harming\"}",
+          "remainderId": "minecraft:glass_bottle"
+        }
+      ],
+      "5": [
+        {
+          "id": "minecraft:lapis_block",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:redstone_block",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:amethyst_shard",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:lingering_potion",
+          "amount": 1,
+          "tag": "{Potion: \"minecraft:strong_harming\"}",
+          "remainderId": "minecraft:glass_bottle"
+        }
+      ]
+    }
+  }

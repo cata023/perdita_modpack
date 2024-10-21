@@ -1,0 +1,78 @@
+{
+    "enchantment_id": "ensorcellation:leech",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:lapis_block",
+          "amount": 4
+        },
+        {
+          "id": "create:rose_quartz",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:amethyst_shard",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:sculk_catalyst",
+          "amount": 1
+        }
+      ],
+      "2": [
+        {
+          "id": "minecraft:lapis_block",
+          "amount": 8
+        },
+        {
+          "id": "create:rose_quartz",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:amethyst_shard",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:sculk_catalyst",
+          "amount": 2
+        }
+      ],
+      "3": [
+        {
+          "id": "minecraft:lapis_block",
+          "amount": 16
+        },
+        {
+          "id": "create:rose_quartz",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:amethyst_shard",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:sculk_catalyst",
+          "amount": 3
+        }
+      ],
+      "4": [
+        {
+          "id": "minecraft:lapis_block",
+          "amount": 32
+        },
+        {
+          "id": "create:rose_quartz",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:amethyst_shard",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:sculk_catalyst",
+          "amount": 4
+        }
+      ]
+    }
+  }

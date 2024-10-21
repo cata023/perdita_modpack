@@ -1,0 +1,42 @@
+{
+    "enchantment_id": "simplemusket:blast",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:gunpowder",
+          "amount": 16
+        },
+        {
+          "id": "createbigcannons:shot_balls",
+          "amount": 12
+        },
+        {
+          "id": "minecraft:obsidian",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 8
+        }
+      ],
+      "2": [
+        {
+          "id": "minecraft:gunpowder",
+          "amount": 32
+        },
+        {
+          "id": "createbigcannons:shot_balls",
+          "amount": 24
+        },
+        {
+          "id": "minecraft:obsidian",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:blaze_powder",
+          "amount": 16
+        }
+      ]
+    }
+  }

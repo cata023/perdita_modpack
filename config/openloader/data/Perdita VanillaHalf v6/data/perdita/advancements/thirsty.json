@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "thirsty": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

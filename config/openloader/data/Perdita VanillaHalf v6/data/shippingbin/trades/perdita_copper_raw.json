@@ -1,0 +1,12 @@
+{
+    "input": {
+        "count": 1,
+        "ingredient": {
+            "item": "packedup:raw_copper_crate"
+        }
+    },
+    "output": {
+        "item": "numismatics:cog",
+        "count": 2
+    }
+}

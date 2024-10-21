@@ -1,0 +1,96 @@
+{
+    "enchantment_id": "ensorcellation:damage_illager",
+    "maxLevel": 0,
+    "levels": {
+      "1": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:quartz",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:iron_block",
+          "amount": 1
+        },
+        {
+          "id": "minecraft:emerald",
+          "amount": 4
+        }
+      ],
+      "2": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:quartz",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:iron_block",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:emerald",
+          "amount": 8
+        }
+      ],
+      "3": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:quartz",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:iron_block",
+          "amount": 4
+        },
+        {
+          "id": "minecraft:emerald",
+          "amount": 16
+        }
+      ],
+      "4": [
+        {
+          "id": "minecraft:lapis_lazuli",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:quartz",
+          "amount": 32
+        },
+        {
+          "id": "minecraft:iron_block",
+          "amount": 8
+        },
+        {
+          "id": "minecraft:emerald",
+          "amount": 32
+        }
+      ],
+      "5": [
+        {
+          "id": "minecraft:lapis_block",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:quartz",
+          "amount": 64
+        },
+        {
+          "id": "minecraft:iron_block",
+          "amount": 16
+        },
+        {
+          "id": "minecraft:emerald",
+          "amount": 64
+        }
+      ]
+    }
+  }
