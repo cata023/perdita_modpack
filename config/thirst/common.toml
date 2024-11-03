@@ -34,6 +34,8 @@
 	handDrinkingHydration = 3
 	#How much the player thirst is quenched when drinking by hand
 	handDrinkingQuenched = 2
+	#Whether extra hydration will convert to quenched
+	ExtraHydrationConvertToQuenched = false
 
 [World]
 	#Y level above which water has 1 more level of purification by default (i.e Mountains)

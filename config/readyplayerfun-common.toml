@@ -2,11 +2,7 @@
 [Server]
 	#Show status message on first player login after server unpaused.
 	enableWelcomeMessage = true
-	#Force game rules regardless of server setting for 'paused' rules.
-	forceGameRules = false
-	#doFireTick default value. Used if forceGameRules is set to true.
-	doFireTick = true
-	#randomTickSpeed default value. Used if forceGameRules is set to true.
-	#Range: 0 ~ 50
-	randomTickSpeed = 3
+	#Number of seconds before server pauses. Backport of pause-when-empty-seconds from 1.21.2+
+	#Range: 1 ~ 360
+	pauseWhileEmptySeconds = 60
 
