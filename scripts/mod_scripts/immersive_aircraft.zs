@@ -45,7 +45,7 @@ craftingTable.addShaped("nether_engine", <item:immersive_aircraft:nether_engine>
 craftingTable.addShaped("eco_engine", <item:immersive_aircraft:eco_engine>, [
     [<item:aether:enchanted_gravitite>, <item:aether:enchanted_gravitite>, <item:aether:enchanted_gravitite>],
     [<item:aether:ambrosium_shard>, <item:immersive_aircraft:engine>, <item:aether:ambrosium_shard>],
-    [<item:aether:holystone>, <item:ascended_quark:holystone_furnace>, <item:aether:holystone>]
+    [<item:aether:holystone>, <item:aethersdelight:holystone_furnace>, <item:aether:holystone>]
     ]
 );
 
