@@ -25,5 +25,8 @@ config/forgeendertech
 config/hwid
 servers.dat
 servers.dat_old
-config/jei/ingredient-list-mod-sort-order.ini
-config/jei/recipe-category-sort-order.ini
+config/jei
+config/voicechat
+config/doomsitsstillexplosive.properties
+config/embeddium-options.json
+config/fabric/indigo-renderer.properties
