@@ -25,3 +25,5 @@ config/forgeendertech
 config/hwid
 servers.dat
 servers.dat_old
+config/jei/ingredient-list-mod-sort-order.ini
+config/jei/recipe-category-sort-order.ini
