@@ -10,11 +10,11 @@ spoilManager.removeAll();
 
 //generating the actual recipes
 
-//spoilrate is set to 200, meaning 200 updates before food rots. spoil time is num of seconds between each update
+//spoilrate is set to 1800, meaning 1800 updates before food rots. spoil time is num of seconds between each update
 //since we know the intended food lifetimes, we can set values for each type of length
-val shortLifetime = 9; //30 minutes
-val mediumLifetime = 36; //2 hours
-val longLifetime = 216; //12 hours
+val shortLifetime = 1; //30 minutes
+val mediumLifetime = 4; //2 hours
+val longLifetime = 24; //12 hours
 
 var shortLifetimes = <tag:items:perdita:short_lifetime>.elements();
 var mediumLifetimes = <tag:items:perdita:medium_lifetime>.elements();
