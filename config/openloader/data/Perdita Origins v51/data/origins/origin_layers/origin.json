@@ -17,6 +17,5 @@
     "name": "Origin",
     "missing_name": "Originless",
     "missing_description": "You have no origin.",
-    "allow_random": true,
-    "default_origin": "perdita:human"
+    "allow_random": true
 }

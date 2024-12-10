@@ -12,6 +12,8 @@
         "perdita:ability/guardian/rain_buff",
         "perdita:ability/guardian/drying",
         "perdita:ability/guardian/ink_sac_eating",
+        "perdita:ability/guardian/swimspeed",
+        "perdita:ability/guardian/friendly_guardians",
         "perdita:dreamscape"
     ],
     "icon": {
