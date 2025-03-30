@@ -169,17 +169,11 @@ val craftingTable = <recipetype:minecraft:crafting>;
 
 craftingTable.removeByName("farmersdelight:rope");
 craftingTable.removeByName("farmersdelight:safety_net");
-craftingTable.removeByName("farmersdelight:canvas");
+//craftingTable.removeByName("farmersdelight:canvas");
 
 craftingTable.addShaped("safety_net", <item:farmersdelight:safety_net>, [
     [<tag:items:forge:rope>, <tag:items:forge:rope>],
     [<tag:items:forge:rope>, <tag:items:forge:rope>]
-    ]
-);
-
-craftingTable.addShaped("canvas", <item:farmersdelight:canvas>, [
-    [<item:farmersdelight:straw>, <item:supplementaries:flax>],
-    [<item:supplementaries:flax>, <item:farmersdelight:straw>]
     ]
 );
 
