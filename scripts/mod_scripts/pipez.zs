@@ -12,43 +12,45 @@ craftingTable.removeByName("pipez:improved_upgrade");
 craftingTable.removeByName("pipez:advanced_upgrade");
 craftingTable.removeByName("pipez:ultimate_upgrade");
 
-craftingTable.addShaped("pipez_fluid_pipe", <item:pipez:fluid_pipe> * 4, [
-    [<item:create:fluid_pipe>, <item:create:fluid_pipe>],
-    [<item:create:fluid_pipe>, <item:create:fluid_pipe>]
+craftingTable.addShaped("pipez_fluid_pipe", <item:pipez:fluid_pipe> * 8, [
+    [<tag:items:forge:ingots/copper>, <tag:items:forge:glass>, <tag:items:forge:ingots/copper>]
     ]
 );
 
 craftingTable.addShaped("pipez_item_pipe", <item:pipez:item_pipe> * 8, [
-    [<tag:items:forge:ingots/cast_iron>, <item:minecraft:redstone>, <tag:items:forge:ingots/cast_iron>],
-    [<item:create:belt_connector>, <item:create:chute>, <item:create:belt_connector>],
-    [<tag:items:forge:ingots/cast_iron>, <item:minecraft:redstone>, <tag:items:forge:ingots/cast_iron>]
+    [<tag:items:forge:ingots/cast_iron>, <item:minecraft:dried_kelp>, <tag:items:forge:ingots/cast_iron>]
+    ]
+);
+
+craftingTable.addShaped("pipez_energy_pipe", <item:pipez:energy_pipe> * 8, [
+    [<tag:items:forge:ingots/aluminum>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/aluminum>]
     ]
 );
 
 craftingTable.addShaped("pipez_basic_upgrade", <item:pipez:basic_upgrade>, [
-    [<tag:items:forge:ingots/brass>, <tag:items:forge:ingots/cast_iron>, <tag:items:forge:ingots/brass>],
-    [<tag:items:forge:ingots/cast_iron>, <item:minecraft:redstone>, <tag:items:forge:ingots/cast_iron>],
-    [<tag:items:forge:ingots/brass>, <tag:items:forge:ingots/cast_iron>, <tag:items:forge:ingots/brass>]
+    [<item:minecraft:air>, <tag:items:forge:ingots/iron>, <item:minecraft:air>],
+    [<tag:items:forge:ingots/iron>, <tag:items:forge:ender_pearls>, <tag:items:forge:ingots/iron>],
+    [<item:minecraft:air>, <tag:items:forge:ingots/iron>, <item:minecraft:air>]
     ]
 );
 
-craftingTable.addShaped("pipez_improved_upgrade", <item:pipez:improved_upgrade> * 2, [
-    [<tag:items:forge:ingots/steel>, <item:minecraft:redstone>, <tag:items:forge:ingots/steel>],
-    [<item:minecraft:redstone>, <item:pipez:basic_upgrade>, <item:minecraft:redstone>],
-    [<tag:items:forge:ingots/steel>, <item:minecraft:redstone>, <tag:items:forge:ingots/steel>]
+craftingTable.addShaped("pipez_improved_upgrade", <item:pipez:improved_upgrade>, [
+    [<item:minecraft:air>, <tag:items:forge:ingots/gold>, <item:minecraft:air>],
+    [<tag:items:forge:ingots/gold>, <item:minecraft:ender_eye>, <tag:items:forge:ingots/gold>],
+    [<item:minecraft:air>, <tag:items:forge:ingots/gold>, <item:minecraft:air>]
     ]
 );
 
-craftingTable.addShaped("pipez_advanced_upgrade", <item:pipez:advanced_upgrade> * 2, [
-    [<tag:items:forge:ingots/nethersteel>, <item:minecraft:redstone_block>, <tag:items:forge:ingots/nethersteel>],
-    [<item:minecraft:redstone_block>, <item:pipez:improved_upgrade>, <item:minecraft:redstone_block>],
-    [<tag:items:forge:ingots/nethersteel>, <item:minecraft:redstone_block>, <tag:items:forge:ingots/nethersteel>]
+craftingTable.addShaped("pipez_advanced_upgrade", <item:pipez:advanced_upgrade>, [
+    [<item:minecraft:air>, <tag:items:forge:gems/diamond>, <item:minecraft:air>],
+    [<tag:items:forge:gems/diamond>, <item:minecraft:end_crystal>, <tag:items:forge:gems/diamond>],
+    [<item:minecraft:air>, <tag:items:forge:gems/diamond>, <item:minecraft:air>]
     ]
 );
 
-craftingTable.addShaped("pipez_ultimate_upgrade", <item:pipez:ultimate_upgrade> * 4, [
-    [<tag:items:forge:ingots/netherite>, <item:minecraft:redstone_block>, <tag:items:forge:ingots/netherite>],
-    [<item:pipez:advanced_upgrade>, <item:minecraft:nether_star>, <item:pipez:advanced_upgrade>],
-    [<tag:items:forge:ingots/netherite>, <item:minecraft:redstone_block>, <tag:items:forge:ingots/netherite>]
+craftingTable.addShaped("pipez_ultimate_upgrade", <item:pipez:ultimate_upgrade>, [
+    [<item:minecraft:air>, <item:minecraft:netherite_scrap>, <item:minecraft:air>],
+    [<item:minecraft:netherite_scrap>, <item:minecraft:nether_star>, <item:minecraft:netherite_scrap>],
+    [<item:minecraft:air>, <item:minecraft:netherite_scrap>, <item:minecraft:air>]
     ]
 );
