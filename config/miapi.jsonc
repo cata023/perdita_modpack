@@ -7,8 +7,14 @@
             "green": "00ff00ff"
         },
         "other": {
+            // If items are rescaled in the UI, if disabled makes item overflow into other slots
+            "ui_scale": true,
             // If Glint should render on Modular Items at all
             "enchanting_glint": true,
+            // NOT RECOMMENDED - Heavy Z-Fighting
+            "enable_vanilla_glint": false,
+            // If Glint should render on Modular Items at all
+            "material_glint_strength": 0.0,
             // Whether Miapi materials can be animated
             "animated_materials": true,
             // Whether Miapi displays "Modular Material" when no groups are present
@@ -91,11 +97,18 @@
             "attack_speed_factor": 0.5
         },
         "other": {
+            // if the Tooltips are injected on the logical server as well
+            "inject_lore_server": true,
+            // Bypasses material restrictions entirely NOT RECOMMEND
+            "bypass_material_restriction": false,
             /*
             Whether the development mode of Miapi is enabled
             DO NOT ENABLE IF U DONT KNOW WHAT IT DOES
             */
             "development_mode": false,
+            // Save Area Mining adds additional checks to prevent explosive behaviour when pared with other mods
+
+            "save_area_mining": true,
             // Truly Modular Logs more aggressivly
             "verbose_logging": false,
             /*

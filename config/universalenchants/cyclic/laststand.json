@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor_legs"
+  ],
+  "incompatible": [
+    "cyclic:experience_boost",
+    "minecraft:thorns",
+    "minecraft:mending",
+    "cyclic:launch"
+  ]
+}

@@ -238,8 +238,6 @@
 	sconce = true
 	sconce_lever = true
 	pancake = true
-	netherite_door = true
-	netherite_trapdoor = true
 	checker_block = true
 	raked_gravel = true
 	feather_block = true
@@ -250,6 +248,7 @@
 	bunting = true
 	fire_pit = true
 	wicker_fence = true
+	fine_wood = true
 
 	[building.flower_box]
 		enabled = true
@@ -290,6 +289,8 @@
 		#Duration in seconts of speed effect garanted to horses that eat a sugar cube
 		#Range: 0 ~ 1000
 		horse_speed_duration = 10
+		#Makes sugar cubes dissolve in rain
+		dissolve_in_rain = true
 
 	[building.planter]
 		enabled = true
@@ -308,7 +309,7 @@
 	[building.pedestal]
 		enabled = true
 		#If enabled end crystals placed on a pedestals will provide an enchantment power bonus equivalent to 3 bookshelves
-		#Range: 0 ~ 100
+		#Range: 0.0 ~ 100.0
 		crystal_enchanting = 3
 
 	[building.ash]
@@ -380,6 +381,10 @@
 		#Range: 0.0 ~ 90.0
 		angle = 69.44395478041653
 
+	[building.netherite_doors]
+		door = true
+		trapdoor = true
+
 [tools]
 	candy = true
 	stasis = true
@@ -430,7 +435,7 @@
 
 	[tools.rope_arrow]
 		enabled = true
-		#Max number of robe items allowed to be stored inside a rope arrow
+		#Max number of rope items allowed to be stored inside a rope arrow
 		#Range: 1 ~ 256
 		capacity = 32
 		#Makes rope arrows exclusive to crossbows
@@ -522,6 +527,8 @@
 	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
 	#Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
+	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
+	sanity_checks_messages = true
 
 #Vanilla tweaks
 [tweaks]
@@ -534,7 +541,7 @@
 		enabled = true
 
 	[tweaks.traders_open_doors]
-		#Allows traders to open doors (because they couldnt aparently)
+		#Allows traders to open doors (because they couldn't apparently)
 		enabled = true
 
 	[tweaks.dispenser_tweaks]
@@ -657,4 +664,8 @@
 		#Chance that a slime mob will apply slimed effect on successful attack. Multiplied by the slime size
 		#Range: 0.0 ~ 1.0
 		chance_per_slime_size = 0.15
+
+	[tweaks.dragon_banner_pattern]
+		#Adds dragon banner pattern made from dragon head
+		enabled = true
 

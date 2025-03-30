@@ -139,6 +139,8 @@
 		"perdita:ability/guardian/ink_sac_eating" = true
 		"perdita:ability/guardian/drying" = true
 		"perdita:dreamscape" = true
+		"perdita:ability/guardian/swimspeed" = true
+		"perdita:ability/guardian/friendly_guardians" = true
 
 	[origins."perdita:sculker"]
 		enabled = true
@@ -207,6 +209,7 @@
 		"perdita:ability/haniwa/potion_immune" = true
 		"perdita:ability/general/antidigestive" = true
 		"perdita:dreamscape" = true
+		"perdita:ability/haniwa/kintsugi_regen_gold" = true
 
 	[origins."perdita:human"]
 		enabled = true
