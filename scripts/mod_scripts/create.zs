@@ -28,12 +28,15 @@ craftingTable.removeByName("create:crafting/kinetics/weighted_ejector");
 craftingTable.removeByName("create:crafting/kinetics/encased_chain_drive");
 craftingTable.removeByName("create:crafting/kinetics/clutch");
 craftingTable.removeByName("create:crafting/kinetics/white_sail");
+craftingTable.removeByName("create:crafting/kinetics/large_water_wheel");
 
 craftingTable.removeByName("create:crafting/kinetics/track_observer");
 craftingTable.removeByName("create:crafting/kinetics/track_observer_from_other_plates");
 
 craftingTable.removeByName("create:crafting/kinetics/copper_valve_handle");
 craftingTable.removeByName("create:crafting/kinetics/copper_valve_handle_from_others");
+
+craftingTable.removeByName("create:crafting/kinetics/package_filter");
 
 craftingTable.removeByName("create:crafting/materials/rose_quartz");
 
@@ -117,6 +120,13 @@ craftingTable.addShaped("create_attribute_filter", <item:create:attribute_filter
     ]
 );
 
+craftingTable.addShaped("create_package_filter", <item:create:package_filter> * 4, [
+    [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>],
+    [<tag:items:forge:ingots/zinc>, <tag:items:forge:string>, <tag:items:forge:ingots/zinc>],
+    [<item:minecraft:air>, <tag:items:forge:rods/wooden>, <item:minecraft:air>]
+    ]
+);
+
 craftingTable.addShaped("metal_bracket", <item:create:metal_bracket> * 4, [
     [<item:minecraft:air>, <tag:items:forge:plates/iron>, <item:minecraft:air>],
     [<tag:items:forge:ingots/iron>, <item:create:andesite_alloy>, <tag:items:forge:ingots/iron>]
@@ -125,7 +135,7 @@ craftingTable.addShaped("metal_bracket", <item:create:metal_bracket> * 4, [
 
 craftingTable.addShaped("mechanical_drill", <item:create:mechanical_drill>, [
     [<item:minecraft:air>, <item:create:andesite_alloy>, <item:minecraft:air>],
-    [<item:create:andesite_alloy>, <tag:items:forge:ingots/cast_iron>, <item:create:andesite_alloy>],
+    [<item:create:andesite_alloy>, <tag:items:forge:ingots/steel>, <item:create:andesite_alloy>],
     [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>]
     ]
 );
@@ -160,25 +170,26 @@ craftingTable.addShaped("rope_pulley", <item:create:rope_pulley>, [
 craftingTable.addShaped("mechanical_roller", <item:create:mechanical_roller>, [
     [<item:minecraft:air>, <item:create:electron_tube>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:create:andesite_casing>, <item:minecraft:air>],
-    [<item:create:andesite_alloy>, <item:createbigcannons:cast_iron_block>, <item:create:andesite_alloy>]
+    [<item:create:andesite_alloy>, <tag:items:forge:storage_blocks/cast_iron>, <item:create:andesite_alloy>]
     ]
 );
 
 craftingTable.addShaped("redstone_link", <item:create:redstone_link> * 2, [
     [<item:minecraft:redstone_torch>],
-    [<item:create:brass_casing>],
+    [<item:create:andesite_casing>],
     [<item:minecraft:ender_pearl>]
     ]
 );
 
 craftingTable.addShaped("display_link", <item:create:display_link>, [
     [<item:create:redstone_link>],
+    [<item:create:brass_casing>],
     [<item:minecraft:observer>]
     ]
 );
 
 craftingTable.addShaped("windmill_sail", <item:create:white_sail>, [
-    [<item:farmersdelight:canvas>, <tag:items:forge:rods/wooden>],
+    [<item:immersiveengineering:hemp_fabric>, <tag:items:forge:rods/wooden>],
     [<tag:items:forge:rods/wooden>, <item:create:andesite_alloy>]
     ]
 );
@@ -194,14 +205,14 @@ craftingTable.addShapeless("encased_chain_drive", <item:create:encased_chain_dri
 );
 
 craftingTable.addShapeless("weighted_ejector", <item:create:weighted_ejector>, [
-    <item:create:depot>, <item:createbigcannons:spring_wire>, <item:create:cogwheel>
+    <item:create:depot>, <item:immersiveengineering:wire_aluminum>, <item:create:cogwheel>
     ]
 );
 
 craftingTable.addShaped("schematicannon", <item:create:schematicannon>, [
-    [<item:createbigcannons:cast_iron_block>, <item:createbigcannons:cast_iron_block>, <item:createbigcannons:cast_iron_block>],
-    [<tag:items:minecraft:planks>, <item:createbigcannons:recoil_spring>, <tag:items:minecraft:planks>],
-    [<item:create:precision_mechanism>, <item:createbigcannons:cannon_mount>, <item:create:precision_mechanism>]
+    [<tag:items:forge:storage_blocks/cast_iron>, <tag:items:forge:storage_blocks/cast_iron>, <tag:items:forge:storage_blocks/cast_iron>],
+    [<tag:items:minecraft:planks>, <item:minecraft:dispenser>, <tag:items:minecraft:planks>],
+    [<item:create:precision_mechanism>, <item:create:mechanical_bearing>, <item:create:precision_mechanism>]
     ]
 );
 
@@ -212,8 +223,15 @@ craftingTable.addShaped("cart_assembler", <item:create:cart_assembler>, [
     ]
 );
 
+craftingTable.addShaped("large_water_wheel", <item:create:large_water_wheel>, [
+    [<item:minecraft:air>, <item:immersiveengineering:waterwheel_segment>, <item:minecraft:air>],
+    [<item:immersiveengineering:waterwheel_segment>, <item:create:shaft>, <item:immersiveengineering:waterwheel_segment>],
+    [<item:minecraft:air>, <item:immersiveengineering:waterwheel_segment>, <item:minecraft:air>]
+    ]
+);
+
 craftingTable.addShapeless("sequenced_gearshift", <item:create:sequenced_gearshift>, [
-    <item:create:gearbox>, <tag:items:forge:ingots/brass>, <item:create_connected:control_chip>
+    <item:create:gearbox>, <tag:items:forge:ingots/brass>, <item:immersiveengineering:component_electronic>
     ]
 );
 
@@ -235,3 +253,10 @@ craftingTable.addShapeless("slimeball_from_dough", <item:minecraft:slime_ball>, 
     ]
 );
 <recipetype:minecraft:campfire_cooking>.addRecipe("campfire_bread", <item:minecraft:bread>, <tag:items:forge:dough/wheat>, 1.0, 600);
+
+//sponge recipe for parity
+<recipetype:create:filling>.addRecipe("sponge_filling", <item:minecraft:wet_sponge>, <item:minecraft:sponge>, <fluid:minecraft:water> * 1000, 200);
+
+//concrete mixing recipe for parity
+// MixingManager.addRecipe(name as string, heat as HeatCondition, outputs as Percentaged<IItemStack>[], itemInputs as IIngredientWithAmount[], fluidInputs as FluidIngredient[] = [] as crafttweaker.api.fluid.FluidIngredient[], duration as int = 100);
+<recipetype:create:mixing>.addRecipe("liquid_concrete_create", <constant:create:heat_condition:none>, [<fluid:immersiveengineering:concrete> * 500], [<tag:items:forge:sand> * 2, <tag:items:forge:gravel>, <tag:items:forge:clay>], [<fluid:minecraft:water> * 500], 100);
