@@ -21,6 +21,8 @@ craftingTable.removeByName("immersiveengineering:crafting/cokebrick");
 craftingTable.removeByName("immersiveengineering:crafting/blastbrick");
 craftingTable.removeByName("immersiveengineering:crafting/alloybrick");
 
+craftingTable.removeByName("immersiveengineering:crafting/hemp_fabric");
+
 <recipetype:immersiveengineering:blueprint>.remove(<item:immersiveengineering:component_iron>);
 <recipetype:immersiveengineering:blueprint>.remove(<item:immersiveengineering:component_steel>);
 
@@ -113,6 +115,12 @@ craftingTable.addShaped("steel_mech_component", <item:immersiveengineering:compo
 
 <recipetype:immersiveengineering:blueprint>.addRecipe("steel_component", "components", [<tag:items:forge:plates/steel> * 4, <item:create:precision_mechanism>], <item:immersiveengineering:component_steel> * 2);
 
+craftingTable.addShaped("tough_fabric", <item:immersiveengineering:hemp_fabric>, [
+    [<tag:items:forge:fiber_hemp>, <tag:items:forge:fiber/flax>, <tag:items:forge:fiber_hemp>],
+    [<tag:items:forge:fiber/flax>, <tag:items:minecraft:wool>, <tag:items:forge:fiber/flax>],
+    [<tag:items:forge:fiber_hemp>, <tag:items:forge:fiber/flax>, <tag:items:forge:fiber_hemp>]
+    ]
+);
 
 
 <tag:items:sereneseasons:autumn_crops>.add(<item:immersiveengineering:seed>);
