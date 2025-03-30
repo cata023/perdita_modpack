@@ -20,9 +20,9 @@ craftingTable.addShaped("supplementaries_rope", <item:supplementaries:rope> * 3,
 );
 
 craftingTable.addShaped("sack", <item:supplementaries:sack>, [
-    [<item:farmersdelight:canvas>, <item:supplementaries:rope>, <item:farmersdelight:canvas>],
-    [<item:farmersdelight:canvas>, <item:minecraft:air>, <item:farmersdelight:canvas>],
-    [<item:farmersdelight:canvas>, <item:farmersdelight:canvas>, <item:farmersdelight:canvas>]
+    [<item:immersiveengineering:hemp_fabric>, <tag:items:forge:rope>, <item:immersiveengineering:hemp_fabric>],
+    [<item:immersiveengineering:hemp_fabric>, <item:minecraft:air>, <item:immersiveengineering:hemp_fabric>],
+    [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>]
     ]
 );
 
