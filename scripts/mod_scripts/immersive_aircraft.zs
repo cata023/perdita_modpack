@@ -30,8 +30,8 @@ craftingTable.addShaped("boiler", <item:immersive_aircraft:boiler>, [
 
 craftingTable.addShaped("aircraft_engine", <item:immersive_aircraft:engine>, [
     [<item:create:precision_mechanism>, <item:create:shaft>, <item:create:precision_mechanism>],
-    [<item:create:gearbox>, <item:minecraft:piston>, <item:create:gearbox>],
-    [<tag:items:forge:storage_blocks/copper>, <item:immersive_aircraft:boiler>, <tag:items:forge:storage_blocks/copper>]
+    [<item:createdieselgenerators:engine_piston>, <item:create:gearbox>, <item:createdieselgenerators:engine_piston>],
+    [<item:createdieselgenerators:engine_piston>, <tag:items:forge:storage_blocks/cast_iron>, <item:createdieselgenerators:engine_piston>]
     ]
 );
 
@@ -45,7 +45,7 @@ craftingTable.addShaped("nether_engine", <item:immersive_aircraft:nether_engine>
 craftingTable.addShaped("eco_engine", <item:immersive_aircraft:eco_engine>, [
     [<item:aether:enchanted_gravitite>, <item:aether:enchanted_gravitite>, <item:aether:enchanted_gravitite>],
     [<item:aether:ambrosium_shard>, <item:immersive_aircraft:engine>, <item:aether:ambrosium_shard>],
-    [<item:aether:holystone>, <item:aethersdelight:holystone_furnace>, <item:aether:holystone>]
+    [<item:aether:holystone>, <item:aether:ambrosium_shard>, <item:aether:holystone>]
     ]
 );
 
@@ -57,7 +57,7 @@ craftingTable.addShaped("enhanced_propeller", <item:immersive_aircraft:enhanced_
 );
 
 craftingTable.addShaped("rotary_cannon", <item:immersive_aircraft:rotary_cannon>, [
-    [<tag:items:forge:ingots/cast_iron>, <item:createbigcannons:cast_iron_autocannon_barrel>, <item:createbigcannons:cast_iron_autocannon_barrel>],
+    [<tag:items:forge:ingots/cast_iron>, <tag:items:forge:ingots/cast_iron>, <tag:items:forge:ingots/cast_iron>],
     [<tag:items:forge:ingots/cast_iron>, <item:minecraft:air>, <item:minecraft:air>],
     [<item:create:precision_mechanism>, <tag:items:forge:storage_blocks/copper>, <item:minecraft:air>]
     ]
@@ -71,16 +71,16 @@ craftingTable.addShaped("hull", <item:immersive_aircraft:hull>, [
 );
 
 craftingTable.addShaped("sail", <item:immersive_aircraft:sail>, [
-    [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>],
-    [<item:farmersdelight:canvas>, <item:farmersdelight:canvas>, <item:farmersdelight:canvas>],
-    [<item:farmersdelight:canvas>, <item:farmersdelight:canvas>, <item:farmersdelight:canvas>]
+    [<tag:items:forge:rods/aluminum>, <tag:items:forge:ingots/aluminum>, <tag:items:forge:rods/aluminum>],
+    [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>],
+    [<item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>, <item:immersiveengineering:hemp_fabric>]
     ]
 );
 
 craftingTable.addShaped("large_propeller", <item:immersive_aircraft:propeller>, [
-    [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
+    [<tag:items:forge:ingots/aluminum>, <tag:items:forge:ingots/aluminum>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:create:propeller>, <item:minecraft:air>],
-    [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]
+    [<item:minecraft:air>, <tag:items:forge:ingots/aluminum>, <tag:items:forge:ingots/aluminum>]
     ]
 );
 
@@ -99,8 +99,8 @@ craftingTable.addShaped("quadrocopter", <item:immersive_aircraft:quadrocopter>, 
 );
 
 craftingTable.addShaped("bomb_bay", <item:immersive_aircraft:bomb_bay>, [
-    [<tag:items:forge:ingots/steel>, <item:minecraft:piston>, <tag:items:forge:ingots/steel>],
-    [<tag:items:forge:ingots/steel>, <item:create:chute>, <tag:items:forge:ingots/steel>]
+    [<tag:items:forge:ingots/aluminum>, <item:minecraft:piston>, <tag:items:forge:ingots/aluminum>],
+    [<tag:items:forge:ingots/aluminum>, <item:create:chute>, <tag:items:forge:ingots/aluminum>]
     ]
 );
 
@@ -112,9 +112,9 @@ craftingTable.addShaped("steel_boiler", <item:immersive_aircraft:steel_boiler>, 
 );
 
 craftingTable.addShaped("industrial_gears", <item:immersive_aircraft:industrial_gears>, [
-    [<tag:items:forge:ingots/iron>, <item:create:large_cogwheel>, <tag:items:forge:ingots/copper>],
+    [<tag:items:forge:ingots/aluminum>, <item:create:large_cogwheel>, <tag:items:forge:ingots/copper>],
     [<item:create:cogwheel>, <tag:items:forge:ingots/steel>, <item:create:cogwheel>],
-    [<tag:items:forge:ingots/copper>, <item:create:large_cogwheel>, <tag:items:forge:ingots/iron>]
+    [<tag:items:forge:ingots/copper>, <item:create:large_cogwheel>, <tag:items:forge:ingots/aluminum>]
     ]
 );
 
@@ -133,15 +133,15 @@ craftingTable.addShaped("gyroscope", <item:immersive_aircraft:gyroscope>, [
 );
 
 craftingTable.addShaped("hull_reinforcement", <item:immersive_aircraft:hull_reinforcement>, [
-    [<tag:items:forge:plates/iron>, <item:immersive_aircraft:hull>, <tag:items:forge:plates/iron>],
+    [<tag:items:forge:plates/aluminum>, <item:immersive_aircraft:hull>, <tag:items:forge:plates/aluminum>],
     [<item:immersive_aircraft:hull>, <tag:items:forge:ingots/steel>, <item:immersive_aircraft:hull>],
-    [<tag:items:forge:plates/iron>, <item:immersive_aircraft:hull>, <tag:items:forge:plates/iron>]
+    [<tag:items:forge:plates/aluminum>, <item:immersive_aircraft:hull>, <tag:items:forge:plates/aluminum>]
     ]
 );
 
 craftingTable.addShaped("improved_landing_gear", <item:immersive_aircraft:improved_landing_gear>, [
-    [<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/steel>],
-    [<item:createdieselgenerators:asphalt_block>, <item:create:mechanical_bearing>, <tag:items:forge:ingots/steel>],
+    [<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/aluminum>],
+    [<item:createdieselgenerators:asphalt_block>, <item:create:mechanical_bearing>, <tag:items:forge:ingots/aluminum>],
     [<item:createdieselgenerators:asphalt_block>, <item:createdieselgenerators:asphalt_block>, <item:minecraft:air>]
     ]
 );
