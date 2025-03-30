@@ -1,6 +1,0 @@
-{
-    "name": "Aquatic",
-    "description": "You are counted as an aquatic entity.",
-    "type": "origins:entity_group",
-    "group": "aquatic"
-}

@@ -1,5 +1,0 @@
-{
-    "name": "Heavy Body",
-    "description": "You cannot swim, and ignore water for movement purposes.",
-    "type": "origins:ignore_water"
-}
