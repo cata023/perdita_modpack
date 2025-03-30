@@ -29,3 +29,9 @@
 
 <tag:items:perdita:long_lifetime>.add(<item:upgrade_aquatic:mulberry_bread>);
 
+
+<tag:items:sereneseasons:spring_crops>.add(<item:upgrade_aquatic:river_sapling>);
+<tag:items:sereneseasons:summer_crops>.add(<item:upgrade_aquatic:river_sapling>);
+
+<tag:blocks:sereneseasons:spring_crops>.add(<block:upgrade_aquatic:river_sapling>);
+<tag:blocks:sereneseasons:summer_crops>.add(<block:upgrade_aquatic:river_sapling>);

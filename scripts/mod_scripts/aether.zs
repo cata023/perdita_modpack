@@ -5,7 +5,6 @@ import crafttweaker.api.tag.MCTag;
 <tag:items:perdita:bush_spoiling>.add(<item:aether:blue_berry>);
 <tag:items:perdita:bush_spoiling>.add(<item:aether:white_apple>);
 
-
 <tag:items:perdita:short_lifetime>.add(<item:aether:white_apple>);
 
 <tag:items:perdita:medium_lifetime>.add(<item:aether:blue_berry>);
@@ -27,3 +26,10 @@ val mediumLifetime = 36; //2 hours
 val longLifetime = 216; //12 hours
 
 <recipetype:spoiled:spoil_recipe>.addSpoiling("spoiling_aether_skyroot_milk", <item:aether:skyroot_milk_bucket>, <item:aether:skyroot_bucket>, shortLifetime);
+
+
+<tag:items:sereneseasons:summer_crops>.add(<item:aether:skyroot_sapling>);
+<tag:items:sereneseasons:summer_crops>.add(<item:aether:golden_oak_sapling>);
+
+<tag:blocks:sereneseasons:summer_crops>.add(<block:aether:skyroot_sapling>);
+<tag:blocks:sereneseasons:summer_crops>.add(<block:aether:golden_oak_sapling>);

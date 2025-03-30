@@ -105,3 +105,6 @@ import mods.create.FillingManager;
 <tag:items:perdita:long_lifetime>.add(<item:miners_delight:bone_broth_cup>);
 
 <recipetype:create:filling>.removeByName("farmersrespite:filling/water_cup");
+
+<tag:items:sereneseasons:year_round_crops>.add(<item:miners_delight:cave_carrot>);
+<tag:blocks:sereneseasons:year_round_crops>.add(<block:miners_delight:cave_carrots>);

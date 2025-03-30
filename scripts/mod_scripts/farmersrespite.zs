@@ -48,3 +48,12 @@ val longLifetime = 216; //12 hours
 //special tea recipes
 <recipetype:spoiled:spoil_recipe>.addSpoiling("special_spoiling_green_tea", <item:farmersrespite:green_tea_leaves>, <item:farmersrespite:yellow_tea_leaves>, shortLifetime);
 <recipetype:spoiled:spoil_recipe>.addSpoiling("special_spoiling_yellow_tea", <item:farmersrespite:yellow_tea_leaves>, <item:farmersrespite:black_tea_leaves>, shortLifetime);
+
+
+<tag:items:sereneseasons:spring_crops>.add(<item:farmersrespite:tea_seeds>);
+<tag:items:sereneseasons:summer_crops>.add(<item:farmersrespite:tea_seeds>);
+
+<tag:blocks:sereneseasons:spring_crops>.add(<block:farmersrespite:small_tea_bush>);
+<tag:blocks:sereneseasons:summer_crops>.add(<block:farmersrespite:small_tea_bush>);
+<tag:blocks:sereneseasons:spring_crops>.add(<block:farmersrespite:tea_bush>);
+<tag:blocks:sereneseasons:summer_crops>.add(<block:farmersrespite:tea_bush>);

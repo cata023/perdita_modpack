@@ -70,3 +70,14 @@ val mediumLifetime = 36; //2 hours
 val longLifetime = 216; //12 hours
 
 <recipetype:spoiled:spoil_recipe>.addSpoiling("spoiling_aethersdelight_aechor_ice_cream", <item:aethersdelight:aechor_ice_cream_base>, <item:aether:skyroot_bucket>, shortLifetime);
+
+
+<tag:items:sereneseasons:summer_crops>.add(<item:aethersdelight:peppermint_bush_stem>);
+<tag:items:sereneseasons:summer_crops>.add(<item:aethersdelight:ginger>);
+<tag:items:sereneseasons:summer_crops>.add(<item:aethersdelight:parsnip>);
+<tag:items:sereneseasons:summer_crops>.add(<item:aethersdelight:leek>);
+
+<tag:blocks:sereneseasons:summer_crops>.add(<block:aethersdelight:peppermint_bush_stem>);
+<tag:blocks:sereneseasons:summer_crops>.add(<block:aethersdelight:ginger_crop>);
+<tag:blocks:sereneseasons:summer_crops>.add(<block:aethersdelight:parsnip_crop>);
+<tag:blocks:sereneseasons:summer_crops>.add(<block:aethersdelight:leek_crop>);
