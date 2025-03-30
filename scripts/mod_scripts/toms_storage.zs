@@ -1,5 +1,5 @@
 #loader crafttweaker
-
+/*
 val craftingTable = <recipetype:minecraft:crafting>;
 
 craftingTable.removeByName("toms_storage:trim");
@@ -92,3 +92,4 @@ craftingTable.addShaped("wireless_terminal", <item:toms_storage:ts.wireless_term
     [<item:create:precision_mechanism>, <item:create:brass_casing>, <item:create:precision_mechanism>]
     ]
 );
+*/
